@@ -8,3 +8,7 @@ var promise = new Promise(function(resolve, reject){
         reject(Error('it broke'));
     }
 });
+function data(){
+    console.log('Hello');
+}
+data();
